@@ -1,0 +1,20 @@
+# SymbolsHelper-Confirmed: 6.5.0 hurd-i386
+libKirigamiPrimitives.so.6 libkirigamiprimitives6 #MINVER#
+* Build-Depends-Package: libkirigami-dev
+ _Z46qml_register_types_org_kde_kirigami_primitivesv@Base 6.3.0
+ (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 6.3.0
+ (arch=armel riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.3.0
+ (arch=!armel !riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.3.0
+ (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIP10QSGTextureLN9__gnu_cxx12_Lock_policyE1EE@Base 6.3.0
+ (arch=!armel !riscv64)_ZTISt15_Sp_counted_ptrIP10QSGTextureLN9__gnu_cxx12_Lock_policyE2EE@Base 6.3.0
+ (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.3.0
+ (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.3.0
+ (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 6.3.0
+ (arch=armel riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.3.0
+ (arch=!armel !riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.3.0
+ (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIP10QSGTextureLN9__gnu_cxx12_Lock_policyE1EE@Base 6.3.0
+ (arch=!armel !riscv64)_ZTSSt15_Sp_counted_ptrIP10QSGTextureLN9__gnu_cxx12_Lock_policyE2EE@Base 6.3.0
+ (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 6.3.0
+ (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 6.3.0
+ (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIP10QSGTextureLN9__gnu_cxx12_Lock_policyE1EE@Base 6.3.0
+ (arch=!armel !riscv64)_ZTVSt15_Sp_counted_ptrIP10QSGTextureLN9__gnu_cxx12_Lock_policyE2EE@Base 6.3.0

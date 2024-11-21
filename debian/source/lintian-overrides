@@ -1,0 +1,3 @@
+# The detected license information is in fact examples given in this template file
+inconsistent-appstream-metadata-license templates/kirigami6/org.kde.%{APPNAMELC}.metainfo.xml (a permissive license for this metadata, e.g. "fsfap" + update the spdx tags above! != lgpl-2.0-or-later) [debian/copyright]
+
