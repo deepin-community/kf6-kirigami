@@ -1,0 +1,4 @@
+# SymbolsHelper-Confirmed: 6.0.0 amd64
+libKirigamiDelegates.so.6 libkirigamidelegates6 #MINVER#
+* Build-Depends-Package: libkirigami-dev
+ _Z45qml_register_types_org_kde_kirigami_delegatesv@Base 6.0.0
