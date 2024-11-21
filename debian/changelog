@@ -1,3 +1,10 @@
+kf6-kirigami (6.6.0-2deepin1) unstable; urgency=medium
+
+  [ zhangyu ]
+  * add qml deps.
+
+ -- zhangu <zhangyud@uniontech.com>  Thur, 21 Nov 2024 14:21:07 +0100
+
 kf6-kirigami (6.6.0-2) unstable; urgency=medium
 
   [ Sandro Knauß ]
