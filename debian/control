@@ -20,6 +20,13 @@ Build-Depends: cmake (>= 3.16~),
                qt6-shadertools-dev (>= 6.5.0~),
                qt6-svg-dev (>= 6.5.0~),
                qt6-tools-dev (>= 6.5.0~),
+	       qml6-module-qtqml,
+               qml6-module-qtquick,
+               qml6-module-qtquick-controls,
+               qml6-module-qtquick-layouts,
+               qml6-module-qtquick-shapes,
+               qml6-module-qtquick-templates,
+               qml6-module-qtquick-tooling,
 Standards-Version: 4.7.0
 Homepage: https://invent.kde.org/frameworks/kirigami
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kf6-kirigami
