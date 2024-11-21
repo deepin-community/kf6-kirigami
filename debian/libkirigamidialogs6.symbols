@@ -1,0 +1,4 @@
+# SymbolsHelper-Confirmed: 6.3.0 amd64
+libKirigamiDialogs.so.6 libkirigamidialogs6 #MINVER#
+* Build-Depends-Package: libkirigami-dev
+ _Z43qml_register_types_org_kde_kirigami_dialogsv@Base 6.3.0
