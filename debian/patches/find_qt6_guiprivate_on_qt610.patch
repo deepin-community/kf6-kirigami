@@ -1,0 +1,30 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index cc595a0..8e3fc8b 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -32,6 +32,13 @@ endif()
+ include(FeatureSummary)
+ include(KDEInstallDirs)
+ find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2 Concurrent ShaderTools)
++
++# Since Qt 6.10 private module targets ship as standalone CMake packages and
++# are no longer auto-created by the module's targets file, so fetch the
++# private package explicitly for Qt >= 6.10 (backport from upstream master).
++if (Qt6Gui_VERSION VERSION_GREATER_EQUAL "6.10.0")
++    find_package(Qt6GuiPrivate ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
++endif()
+ if (BUILD_TESTING)
+     find_package(Qt6QuickTest ${REQUIRED_QT_VERSION} CONFIG QUIET)
+ endif()
+diff --git a/src/layouts/toolbarlayout.cpp b/src/layouts/toolbarlayout.cpp
+index 67bc1b7..3bcc986 100644
+--- a/src/layouts/toolbarlayout.cpp
++++ b/src/layouts/toolbarlayout.cpp
+@@ -10,6 +10,7 @@
+ #include <unordered_map>
+ 
+ #include <QDeadlineTimer>
++#include <QElapsedTimer>
+ #include <QQmlComponent>
+ #include <QTimer>
+ 
